@@ -1,0 +1,97 @@
+/* elementi navbar */
+
+.logo_icon {
+	margin-right: 0.416rem;
+}
+
+.navbar_title {
+	color: whitesmoke !important;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #3082c0;
+}
+
+/*recolor bottoni bootstrap senza variante */
+.btn-primary {
+	background-color: #075c9d !important;
+	border-color: #0b5791 !important;
+}
+  
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+	background-color: #0c4570 !important;
+	border-color: #0c4570  !important;
+}
+
+/*elementi vari*/
+
+@media screen and (min-width: 601px) {
+	.page_title {
+		font-size: 2rem;
+		text-align: center;
+		margin : 1rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.page_title {
+		font-size: 1.5rem;
+		text-align: center;
+		margin : 1rem;
+	}
+}
+  
+.sub_title {
+	text-align: center;
+}
+
+.login_form {
+	min-height: 5rem;;
+}
+
+.modal-header .close {
+	display:none;
+}
+
+.welcome_message {
+	margin-top: 1rem;
+}
+
+.warning-text {
+	color : red;
+}
+
+.bottom_view_buttons {
+	margin-bottom: 1rem;
+}
+
+.bottom_create_buttons {
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.bottom_compile_buttons{
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+/*vecchie regole da rimuovere appena possibile*/
+
+.form-class-input {
+	margin-right: 0.5rem;
+}
+
+.navbar_link {
+	color:#ffffff;
+}
+
+.button-custom {
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+
